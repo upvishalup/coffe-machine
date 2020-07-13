@@ -1,0 +1,61 @@
+logs
+log
+*.class
+*.so
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.idea
+*.iml
+.idea/*
+
+# Test generated files to compare
+integration-tests/src/test/resources/sample/*/*/*.new
+*.new
+ump/ump-p3/overlays/
+
+# Eclipse files
+.project
+.classpath
+.settings
+
+# Idea files
+*.ipr
+*.iws
+.idea/
+
+
+# Mvn target
+target/
+
+# Velocity log files
+velocity.log*
+
+# vim swap files
+*.swp
+
+*-repo
+
+# IDE files #
+*.ipr
+*.iws
+*.iml
+.idea
+.project
+.settings
+
+#merge tool files
+*.orig
+
+ump/ump-p3/overlays/
+
+*.patch
+*.versionsBackup
+
+bin
+test.wav
+
+.DS_Store
